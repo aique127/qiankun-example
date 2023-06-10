@@ -1,0 +1,16 @@
+
+.donghua {
+    animation: donghua infinite 20s linear;
+    background-color: red;
+    width: 200px;
+}
+@keyframes donghua {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
